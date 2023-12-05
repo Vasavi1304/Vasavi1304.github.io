@@ -3,26 +3,81 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Cafe Menu</title>
+    <title> Urban Beans Cafe Menu</title>
     <link href="style.css" rel="stylesheet" />
   </head>
-  <body>
+  <head>
+  <style>
+    body {
+      font-family: Times New Roman, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header, footer {
+      background-color: #666;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 0.5em;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5em 1em;
+    }
+
+    section {
+      margin: 1em;
+      padding: 1em;
+      background-color: white;
+    }
+
+    .menu-item {
+      border: 1px solid #ddd;
+      padding: 1em;
+      margin: 1em;
+      background-color: #fff;
+    }
+
+    .filter {
+      margin: 0.5em;
+    }
+  </style>
+</head>
+<body>
+
   <header>
-  <!-- Navigation bar -->
-  <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    </header>
-    <div class="menu">
-      <header>
         <h1>URBAN BEANS CAFE</h1>
         <p class="established">Est. 2023</p>
       </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section>
+    <div class="filter">
+      <label for="search">Search:</label>
+      <input type="text" id="search" name="search">
+    </div>
+  </section>
+
+  <footer>
+    <p>Our Cafe Menu</p>
+  </footer>
+
+</body>
+    <div class="menu">
       <hr />
       <main>
         <section>
